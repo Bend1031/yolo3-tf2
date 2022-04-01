@@ -10,7 +10,7 @@ from utils.utils import get_classes
 #   annotation_mode为1代表获得VOCdevkit/VOC2007/ImageSets里面的txt
 #   annotation_mode为2代表获得训练用的2007_train.txt、2007_val.txt
 #--------------------------------------------------------------------------------------------------------------------------------#
-annotation_mode     = 0
+annotation_mode     = 2
 #-------------------------------------------------------------------#
 #   必须要修改，用于生成2007_train.txt、2007_val.txt的目标信息
 #   与训练和预测所用的classes_path一致即可
